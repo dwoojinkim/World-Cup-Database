@@ -84,3 +84,7 @@ git push --set-upstream origin main
 ./queries.sh
 git commit -m "Completed insert_data.sh commands and queries.sh commands."
 git add .
+git commit -m "Completed insert_data.sh commands and queries.sh commands."
+git push
+pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
+git add .
