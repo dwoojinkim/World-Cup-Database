@@ -82,3 +82,5 @@ git push --set-upstream origin main
 ./insert_data.sh
 ./queries.sh
 ./queries.sh
+git commit -m "Completed insert_data.sh commands and queries.sh commands."
+git add .
